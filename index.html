@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/index.css">
+  <!-- Others -->
+  <title>Spending Analysis of G-20 Countries</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="bg-primary navbar navbar-dark navbar-expand-md">
+    <a class="navbar-brand" href=".">Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">11</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="active nav-item">
+          <a class="nav-link" href=".">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="spending.html">Spending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="trends.html">Trends</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Main -->
+  <main class="container-fluid">
+    <!-- Top -->
+    <div class="row">
+      <div class="col-md-9">
+        <div class="title">
+          <h1>Spending Analysis of G20 Countries</h1>
+        </div>
+      </div>
+      <div class="col-md-3 align-self-center justify-content-center">
+        <img src="images/g20.png" style="width:200px;height:100px;">
+      </div>
+    </div>
+    <div class="row">
+      <!-- Left -->
+      <div class="col-md-9">
+        <div>
+          <h2>Introduction</h2>
+          <p>
+            The G20 countries includes the world's major economies, comprising 19 countries and the European Union.
+            In this project, we displayed the expenditure information of 13 G20 countries.
+            The time span ranges from 2011 to 2015.
+            We analyzed spending of educatoin, healthcare and military of these countries. We also compare these
+            spending with the GDP for countries and per capita, respectively.
+          </p>
+          <br />
+          <br />
+          <h2>Data Description</h2>
+          <p> The data source is from the
+            <a href="http://data.worldbank.org/">World Bank Data</a>.
+            These data are quried by searching expenditure (of GDP), expenditure per capita and
+            population of these countries. However, the education spending data for many countries is missing such as
+            USA
+            and China. We retained these missing values without manipulating. After data preprocessing and calculating,
+            cleaned data has been uploaded to google sheet and then use Google Chart API generate the charts.
+            You can find it
+            from <a
+              href="https://docs.google.com/spreadsheets/d/10VGRSM5WJe9--z7IqBdYt3A3DD_a7495So7jeq8x05M/edit?usp=sharing"
+              target="_blank">here</a>.
+          </p>
+          <br />
+        </div>
+      </div>
+      <!-- Right -->
+      <div class="col-md-3">
+        <div class="right-content">
+          <h4>Author</h4>
+          <p>Qing (Carrie) Ruan</p>
+          <p><a href="mailto:carrieqing@gwu.edu">carrieqing@gwu.edu</a></p>
+          <br />
+          <h4>Department</h4>
+          <p>Columbian College of Arts and Sciences</p>
+          <p>The George Washington University</p>
+          <br />
+          <h4>Data Source</h4>
+          <p> <a href="http://data.worldbank.org/">World Bank Data</a></p>
+          <br />
+          <h4>Data Table</h4>
+          <p>
+            <a href="https://docs.google.com/spreadsheets/d/10VGRSM5WJe9--z7IqBdYt3A3DD_a7495So7jeq8x05M/edit?usp=sharing"
+              target="_blank">Data_project</a>
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

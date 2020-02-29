@@ -1,0 +1,28 @@
+.title {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.canvas {
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.column-content {
+  padding-top: 15px;
+}
+
+.footer-placeholder {
+  height: 56px;
+}
+
+.footer {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed;
+}
