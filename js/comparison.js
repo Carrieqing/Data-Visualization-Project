@@ -163,7 +163,7 @@ function per15ResponseHandler(response) {
   var data = response.getDataTable();
   data.sort({ column: 4, desc: true });
   var options = {
-    title: 'Three categories spending of GDP per capita from 2011-2015',
+    title: 'Three categories spending of GDP per capita from in 2015',
     height: 400,
     vAxis: { title: '$ per Capita of GDP' },
     hAxis: { title: 'Country' }
